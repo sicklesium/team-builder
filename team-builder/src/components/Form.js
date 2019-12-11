@@ -41,7 +41,7 @@ const Form = (props) => {
               </label>
             </div>
 
-                <button onClick={props.addMember} >Submit</button>
+                <button className='addmember' onClick={props.addMember} >Add Member to Team</button>
             </form>
         </div>
     )

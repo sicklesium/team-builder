@@ -25,6 +25,13 @@ function App() {
     console.log(members)
   }
 
+  const editMember = (e) => {
+    e.preventDefault();
+    setMembers([ ...members, newMember ])
+    console.log(newMember)
+    console.log(members)
+}
+
   return (
     <div className="App">
       <Form
