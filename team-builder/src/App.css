@@ -1,0 +1,50 @@
+.App {
+  text-align: center;
+}
+
+body {
+  background: white;
+  color: black;
+}
+
+.memberbox {
+    border: 1px solid coral;
+    margin: 3% 30%;
+    border-radius: 5px;
+}
+
+.form {
+  border: 1px solid red;
+  margin: 3% 30%;
+  padding: 3%;
+  border-radius: 5px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  align-content: space-around;
+}
+
+.editform {
+  border: 1px solid mediumorchid;
+  margin: 3% 30%;
+  padding: 3%;
+  border-radius: 5px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  align-content: space-around;
+}
+
+.formbox {
+  display: flex;
+  align-content: space-around;
+}
+
+.addmember {
+  color: cornsilk;
+  background: cadetblue;
+  border: none;
+  padding: 3%;
+  margin: 3%;
+  border-radius: 5px;
+}
